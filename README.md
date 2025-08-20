@@ -1,10 +1,13 @@
-# Đogechat Python client
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7afe4707-c27c-4e30-8cb0-d86b5571f623" />
 
-A Python implementation of the Dogechat Đecentralized, peer-to-peer, encrypted chat application over BLE.
+# 🐶 Đogechat Python client
+
+A `Python` implementation of the Dogechat Đecentralized, peer-to-peer, encrypted chat application over BLE.
 
 *This project is a rewrite of the [original Rust-based `bitchat-terminal`](https://github.com/ShilohEye/bitchat-terminal).*
 
 ## Table of contents
+
 * [Installation](#installation)
 * [Usage](#usage)
   * [Simple start](#simple-start)
@@ -81,7 +84,52 @@ Privacy & Security Commands
 * `/unblock @user`     : Unblock a user
 ```
 
-## Liscence
+## License
+
+This project is released into the public domain. See the [LICENSE](LICENSE.md) file for details.
 
 
-## Contributors 
+## 🛠 Contributing
+
+If you'd like to contribute or donate to this project, please donate in Dogecoin. For active contributors its as easy as opening issues, and or creating pull requests.
+
+This software is Open-source, Đecentralized, an FREE to use, Đonations are accepted, but never expected, to support The Contributers of Đogechat you can send any Donations in Dogecoin, Doginals, Dunes, or Drc-20's to the following Contributors:
+
+***You can donate to*** **GreatApe** ***here:***
+
+"handle": ***"GreatApe42069"*** "at": [***"@Greatape42069E"***](https://x.com/Greatape42069E)
+
+ **"Đogecoin_address":** **D9pqzxiiUke5eodEzMmxZAxpFcbvwuM4Hg**
+
+
+## ***Contributions are welcome! Key areas for enhancement:***
+
+1. **Performance**: Battery optimization and connection reliability
+2. **UI/UX**: Additional Material Design features
+3. **Security**: Enhanced cryptographic features
+4. **Testing**: Unit and integration test coverage
+5. **Documentation**: API documentation and development guides
+
+### Support & Issues
+
+- **Bug Reports**: [Create an issue](../../issues) with device info and logs
+- **Feature Requests**: [Start a discussion](https://github.com/orgs/greatape42069/discussions)
+- **Security Issues**: Email security concerns privately
+- **Android Compatibility**:
+Cross-reference with [original dogechat Android repo](https://github.com/GreatApe42069/dogechat-android)
+
+Cross-reference with [original bitchat Android repo](https://github.com/permissionlesstech/bitchat-android)
+
+For Android-specific issues, please refer to the [original bitchat-android repository](https://github.com/permissionlesstech/bitchat-android).
+
+- **iOS Compatibility**:
+Cross-reference with [original dogechat Android repo](https://github.com/GreatApe42069/dogechat)
+
+Cross-reference with [original iOS repo](https://github.com/jackjackdoges/bitchat)
+
+For iOS-specific issues, please refer to the [original iOS bitchat repository](https://github.com/jackjackdoges/bitchat).
+
+
+![image](https://github.com/user-attachments/assets/92ad2d4c-b3b1-4464-b9c0-708038634770)
+
+
