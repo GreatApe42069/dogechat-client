@@ -316,7 +316,7 @@ class DogechatClient:
     
     async def connect(self):
         """Connect to Dogechat service"""
-        print("\033[90m» Scanning for dogechat service...\033[0m")
+        print("\033[90m» Such Scanning for Much dogechat service...\033[0m")
         
         scan_attempts = 0
         max_initial_attempts = 10  # Try for ~10 seconds initially
@@ -444,6 +444,12 @@ class DogechatClient:
         if self.app_state.nickname:
             print(f"\033[90m» Using saved nickname: {self.nickname}\033[0m")
         print("\033[90m» Type /status to see connection info\033[0m")
+
+        # Command List Menu
+        print("\033[90m» Type /help to see available commands\033[0m")        
+
+        # Exit Client
+        print("\033[90m» Type `/exit` to Exit Đogechat\033[0m")
         
         # Restore state
         self.blocked_peers = self.app_state.blocked_peers
@@ -2482,17 +2488,10 @@ class DogechatClient:
 
 def print_banner():
     """Print the Dogechat banner"""
-    print("\n\033[38;5;46m##\\       ##\\   ##\\               ##\\                  ##\\")
-    print("## |      \\__|  ## |              ## |                 ## |")
-    print("#######\\  ##\\ ######\\    #######\\ #######\\   ######\\ ######\\")
-    print("##  __##\\ ## |\\_##  _|  ##  _____|##  __##\\  \\____##\\\\_##  _|")
-    print("## |  ## |## |  ## |    ## /      ## |  ## | ####### | ## |")
-    print("## |  ## |## |  ## |##\\ ## |      ## |  ## |##  __## | ## |##\\")
-    print("#######  |## |  \\####  |\\#######\\ ## |  ## |\\####### | \\####  |")
-    print("\\_______/ \\__|   \\____/  \\_______|\\__|  \\__| \\_______|  \\____/\033[0m")
+
     print("\n\033[38;5;40m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m")
-    print("\033[37mDecentralized • Encrypted • Peer-to-Peer • Open Source\033[0m")
-    print(f"\033[37m         dogechat@-python {VERSION} @kaganisildak\033[0m")
+    print("\033[37m Đecentralized • Encrypted • Peer-to-Peer • Open Source\033[0m")
+    print(f"\033[37m         dogechat@-python {VERSION} @GreateApe42069\033[0m")
     print("\033[38;5;40m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m\n")
 
 def unpad_packet(data: bytes) -> bytes:

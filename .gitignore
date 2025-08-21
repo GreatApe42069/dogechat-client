@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (if created later)
+.venv/
+env/
+venv/
+
+# IDE & editor configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Sensitive files (examples, adjust if you add any later)
+*.pem
+*.key
+*.crt
+secrets.json
+
+# Pip installer caches
+*.egg-info/
+dist/
+build/
+
+
